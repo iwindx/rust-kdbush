@@ -48,6 +48,7 @@ impl PointReader for Vec<(f64, f64)> {
 }
 
 /// A very fast static spatial index for 2D points based on a flat KD-tree
+#[derive(Clone, Debug, PartialEq)]
 pub struct KDBush {
     ids: Vec<TIndex>,
     points: Vec<Point>,

@@ -1,12 +1,12 @@
 [package]
-name = "kdbush"
+name = "rs-kdbush"
 version = "0.2.0"
 authors = ["Pirmin Kalberer <pka@sourcepole.ch>"]
 description = "A very fast static spatial index for 2D points based on a flat KD-tree."
-homepage = "https://github.com/pka/rust-kdbush"
-repository = "https://github.com/pka/rust-kdbush"
+homepage = "https://github.com/iwindx/rust-kdbush"
+repository = "https://github.com/iwindx/rust-kdbush"
 readme = "README.md"
-documentation = "https://docs.rs/kdbush/"
+documentation = "https://docs.rs/rs-kdbush/"
 keywords = ["kd-tree", "spatial", "geometry"]
 license = "ISC"
 edition = "2018"
